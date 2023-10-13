@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .navbarheading{
+      display: flex;
+      height: 80px;
+      background-color: gray;
+      /*overflow: hidden;
+      position: fixed;
+      top: 0px;*/
+    }
+    .heading{
+      color: aliceblue;
+      font-size: 45px;
+      font-family: "roboto";
+      padding-left: 5px;
+      margin-right: 250px;
+      padding-top: 10px;
+    }
+    .search input{
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border-top-left-radius: 5px;
+        padding-left: 10px; 
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 15px;
+        height: 40px;
+      }
+      .nav-item a{
+        font-size: 20px;
+      }
+      .modal-content{
+            background-image: url(https://c2.staticflickr.com/8/7079/6918053172_b6f96002ec_b.jpg);
+        }
+ form.example button {
+  float: right;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+form.example button:hover {
+  background: #0b7dda;
+}
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+    </style>
+</head>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net+/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
+<body>
+
+  <div class="navbarheading">
+    <h1 class="heading"><span style="color: rgb(226, 43, 174);">E</span>-COMMERCE</h1>
+    
+     <ul class="nav nav-pills nav justify-content-center pt-3">
+      <li class="nav-item"><a class="nav-link active"href="boostrapProject.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link"href="contact.html">contact us</a></li>
+          <li class="nav-item"><a class="nav-link"href="aboutus.html">about</a></li>
+     </ul>
+          <div class="dropdown pt-3">
+            <a class="nav-link dropdown-toggle " data-bs-target="#abc" data-bs-toggle="dropdown" style="font-size: 20px;">products</a>
+            <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="kidsshopping.html">kids</a></li>
+                  <li><a class="dropdown-item" href="productcard.html">Women</a></li>
+                  <li><a class="dropdown-item" href="sheets.html">man</a></li></ul>
+            </ul>
+          </div>
+          <form class="example"  style="margin:auto;max-width:300px">
+            <input type="text" placeholder="Search.." name="search2">
+            <button type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg></button>
+          </form>
+
+          <button class="btn btn-primary" data-bs-target="#modal22" data-bs-toggle="modal" style="height: 40px;  width: 80px; margin-top: 15px;margin-right: 10px;">login</button>
+          <div class="modal" id="modal22">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                  <div class="modal-header">
+                      <h2 class="text-warning p-5">login</h2>
+                      <button class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+                  <div class="modal-body">
+                      <form>
+                          <div class="form-floating">
+                              <input type="text" id="name" name="name" placeholder="enter your name" class="form-control">
+                              <label for="name">enter your name</label>
+                              <br>
+                           <div class="form-floating">
+                              <input type="text" id="email" name="email" placeholder="enter your email" class="form-control">
+                              <label for="email">enter your email</label><br>
+                              <input type="button" value="login" class="btn btn-success">
+                           </div>   
+                          </div>
+                      </form>
+                    
+                  </div>
+                  
+              </div>
+              </div>
+            
+          </div>
+      
+      </ul>
+     
+  </div>
+          
+
+
+
+
+    <div class="row">
+        <div class="col-md-4">
+        <div class="container mt-3">
+          <div class="card" style="width:400px">
+            <img class="card-img-top" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1654785345_4183202.jpg?w=480&dpr=1.3" alt="Card image" style="width:100%">
+            <div class="card-body">
+              <h4 class="card-title"></h4>
+              <p class="card-text">Oxford Shirt: Pink</p>
+                <p class="card-text"><span style="color: green;">₹2,099</span> M.R.P: ₹2,999 (65% off)</p>
+                <button type="button" class="btn btn-success">BUY</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        <div class="col-md-4">
+          <div class="container mt-3">
+            <div class="card" style="width:400px">
+              <img class="card-img-top" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1693292416_9572671.jpg?format=webp&w=480&dpr=1.3" alt="Card image" style="width:100%">
+              <div class="card-body">
+                <h4 class="card-title"></h4>
+                <p class="card-text">Solids: Light Olive</p>
+                  <p class="card-text"><span style="color: green;">₹500</span> M.R.P: ₹1,000 (25% off)</p>
+                  <button type="button" class="btn btn-success">BUY</button>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="col-md-4">
+            <div class="container mt-3">
+              <div class="card" style="width:400px">
+                <img class="card-img-top" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1681971932_8755553.jpg?format=webp&w=480&dpr=1.3" alt="Card image" style="width:100%">
+                <div class="card-body">
+                  <h4 class="card-title"></h4>
+                  <p class="card-text">Plaid: Blue and White</p>
+                    <p class="card-text"><span style="color: green;">₹799</span>M.R.P: ₹1,550 (20% off)</p>
+                    <button type="button" class="btn btn-success">BUY</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+             <div class="row">
+              <div class="col-md-4">
+              <div class="container mt-3">
+                <div class="card" style="width:400px">
+                  <img class="card-img-top" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1695274419_4212273.jpg?format=webp&w=480&dpr=1.3" alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title"></h4>
+                    <p class="card-text">Tie-Dye: Grape Wine</p>
+                      <p class="card-text"><span style="color: green;">₹2,000</span> M.R.P: ₹3,999 (95% off)</p>
+                      <button type="button" class="btn btn-success">BUY</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-md-4">
+                <div class="container mt-3">
+                  <div class="card" style="width:400px">
+                    <img class="card-img-top" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1695638309_7831980.jpg?format=webp&w=480&dpr=1.3" alt="Card image" style="width:100%">
+                    <div class="card-body">
+                      <h4 class="card-title"></h4>
+                      <p class="card-text">Spider-Man: Radioactive</p>
+                        <p class="card-text"><span style="color: green;">₹1,000</span> M.R.P: ₹1,550 (45% off)</p>
+                        <button type="button" class="btn btn-success">BUY</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <div class="col-md-4">
+                  <div class="container mt-3">
+                    <div class="card" style="width:400px">
+                      <img class="card-img-top" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1692364446_7222244.jpg?format=webp&w=480&dpr=1.3" alt="Card image" style="width:100%">
+                      <div class="card-body">
+                        <h4 class="card-title"></h4>
+                        <p class="card-text">Plaid: Black & Brown</p>
+                          <p class="card-text"><span style="color: green;">₹1,500</span> M.R.P: ₹2,999 (25% off)</p>
+                          <button type="button" class="btn btn-success">BUY</button>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+                </div>
+</body>
+</html>
